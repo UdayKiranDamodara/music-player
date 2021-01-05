@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 
 import  CurrentSongContextProvider from './contexts/CurrentSong'
 import SearchContextProvider from './contexts/SearchContext'
