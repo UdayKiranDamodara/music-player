@@ -1,0 +1,33 @@
+.Card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: #999;
+    width: 180px;
+    height: 260px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+.Card:hover {
+    background-color: #666;
+}
+
+.card-container {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .card-container {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+.Card h6 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: lighter;
+}
