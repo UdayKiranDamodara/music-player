@@ -5,6 +5,7 @@ import Card from "../Card/Card";
 import { backendURL } from "../../utils/backendUrl";
 
 import './Home.css'
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -29,7 +30,7 @@ const Home = () => {
         else {
             console.log('fetch', search)
             // fetch song
-            fetch(`${URL}/search/${search}`)
+            fetch(`${backendURL}/search/${search}`)
                 .then(res => res.json())
                 .then(data => {
                     //console.log(data)
@@ -57,7 +58,8 @@ const Home = () => {
                 value={search}
                 onChange={event => setSearch(event.target.value)} 
             />
-            <a id='admin' href='/admin'>Admin Login</a>
+            <a id='admin' href='#/admin'>Admin Login</a>
+            {/* <Link to='/admin'>Admin Login</Link> */}
             </div>
             <div className='songsList-container h1-pd20'>
             <h1>Songs</h1>
