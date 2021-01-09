@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/music-player/static/css/main.cf472b88.chunk.css",
-    "main.js": "/music-player/static/js/main.c02fb3c1.chunk.js",
-    "main.js.map": "/music-player/static/js/main.c02fb3c1.chunk.js.map",
+    "main.js": "/music-player/static/js/main.bd11d678.chunk.js",
+    "main.js.map": "/music-player/static/js/main.bd11d678.chunk.js.map",
     "runtime-main.js": "/music-player/static/js/runtime-main.c4d5eed6.js",
     "runtime-main.js.map": "/music-player/static/js/runtime-main.c4d5eed6.js.map",
     "static/js/2.d6552206.chunk.js": "/music-player/static/js/2.d6552206.chunk.js",
     "static/js/2.d6552206.chunk.js.map": "/music-player/static/js/2.d6552206.chunk.js.map",
     "index.html": "/music-player/index.html",
     "static/css/main.cf472b88.chunk.css.map": "/music-player/static/css/main.cf472b88.chunk.css.map",
-    "static/js/2.d6552206.chunk.js.LICENSE.txt": "/music-player/static/js/2.d6552206.chunk.js.LICENSE.txt"
+    "static/js/2.d6552206.chunk.js.LICENSE.txt": "/music-player/static/js/2.d6552206.chunk.js.LICENSE.txt",
+    "static/media/avataaars.3fae19e9.svg": "/music-player/static/media/avataaars.3fae19e9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c4d5eed6.js",
     "static/js/2.d6552206.chunk.js",
     "static/css/main.cf472b88.chunk.css",
-    "static/js/main.c02fb3c1.chunk.js"
+    "static/js/main.bd11d678.chunk.js"
   ]
 }
